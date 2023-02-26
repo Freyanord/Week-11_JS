@@ -14,7 +14,19 @@ border: 1px solid black;
     padding-bottom: 10px;
     padding-left: 25px;
 }
-.price {
+.price1 {
+    color: blue;
+    padding-left: 1000px;
+}
+.price2 {
+    color: blue;
+    padding-left: 1000px;
+}
+.price3 {
+    color: blue;
+    padding-left: 1000px;
+}
+.price4 {
     color: blue;
     padding-left: 1000px;
 }
