@@ -1,0 +1,38 @@
+.good {
+display: flex;
+width: 1400px;
+max-height: 120px;
+border: 1px solid black;
+
+}
+.good_image {
+    width: 150px;
+    height: 100px;
+    padding-top: 10px;
+}
+.good_description {
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+.price {
+    color: blue;
+    padding-left: 1000px;
+}
+.totalprice {
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+p {
+    font-weight: bold;
+    padding-right: 20px;
+}
+.button {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+.price2 {
+    color: blue;
+}
