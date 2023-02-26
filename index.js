@@ -1,28 +1,31 @@
-let a = document.querySelector('.price1').innerHTML = '4000';
-a = Number(a);
-let b = document.querySelector('.price2').innerHTML = '3500';
-b = Number(b);
-let c = document.querySelector('.price3').innerHTML = '2000';
-c = Number(c);
-let d = document.querySelector('.price4').innerHTML = '5000';
-d = Number(d);
+let a = document.querySelector('.price1').innerHTML = +'4000';
+//console.log(a);
+let b = document.querySelector('.price2').innerHTML = +'3500';
+//console.log(b);
+let c = document.querySelector('.price3').innerHTML = +'2000';
+//console.log(c);
+let d = document.querySelector('.price4').innerHTML = +'5000';
+//console.log(d);
 let button = document.querySelector('.button');
 let finalPrice = document.querySelector('.price5');
 
-/*function sum(a, b, c, d) {
+function sum(a, b, c, d) {
     return a + b + c + d;
-    console.log (sum);
-}*/
+}
+let result = sum(a, b, c, d);
+//console.log (result);
 
-let sum = function(a, b, c, d) {
+/*let sum = function(a, b, c, d) {
 	return a + b + c + d;
 };
+console.log(a + b + c + d);*/
 
-let percent = sum * 20 / 100;
+let percent = result * 20 / 100;
+//console.log (percent);
 
 function total() {
-    let result = Number(sum) - percent;
-    finalPrice.textContent = result;
+    let totalPrice = Number(result) - percent;
+    finalPrice.textContent = totalPrice;
 }
 
 button.addEventListener('click', total);
