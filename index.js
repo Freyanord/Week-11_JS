@@ -1,13 +1,13 @@
-let a = document.querySelector('.price1').innerHTML = +'4000';
+const a = document.querySelector('.price1').innerHTML = +'4000';
 //console.log(a);
-let b = document.querySelector('.price2').innerHTML = +'3500';
+const b = document.querySelector('.price2').innerHTML = +'3500';
 //console.log(b);
-let c = document.querySelector('.price3').innerHTML = +'2000';
+const c = document.querySelector('.price3').innerHTML = +'2000';
 //console.log(c);
-let d = document.querySelector('.price4').innerHTML = +'5000';
+const d = document.querySelector('.price4').innerHTML = +'5000';
 //console.log(d);
-let button = document.querySelector('.button');
-let finalPrice = document.querySelector('.price5');
+const button = document.querySelector('.button');
+const finalPrice = document.querySelector('.price5');
 
 function sum(a, b, c, d) {
     return a + b + c + d;
